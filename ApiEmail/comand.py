@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 from typing import Dict, Optional, Union, Any
-from .SecondaryQrLogin import *
-from .SecondaryQrLogin.ttypes import *
 from thrift.transport import THttpClient
 from thrift.protocol import TCompactProtocol
 from .corever.ttypes import *
