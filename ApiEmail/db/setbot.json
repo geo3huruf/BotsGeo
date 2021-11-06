@@ -1,0 +1,124 @@
+{
+    "ChangeVideoProfilevid": false,
+    "addSticker": {
+        "name": "",
+        "status": false
+    },
+    "mid_from": {},
+    "mid_rom": {},
+    "cmand": [
+        "cek",
+        "anjing",
+        "kucing",
+        "ayam",
+        "asu",
+        "kam",
+        "appline",
+        "bangk",
+        "ange"
+    ],
+    "mute": [],
+    "call": [],
+    "gamesOn": [],
+    "siderSticker": {
+        "Sendere": [],
+        "Sticker": {},
+        "status": false
+    },
+    "admin": {
+        "target": {
+            "uce6d9daa08bce025bd880d7f9fea1746": true
+        }
+    },
+    "blacklist": {
+        "target": {}
+    },
+    "staff": [],
+    "author_lineid": "line.me/ti/p/~denmas_geo",
+    "autoAdd": {
+        "message": "Monggo Gaes!!\nDisplay add by : @!\n\n<SALE FOR BOT LINE>\n======================\n==}}> VPS Vultr <\n==}}> Selfbot Only <\n==}}> Selfbot asist + + <\n==}}> Protect GC / ROM <\n==}}> Coin GIFT <\n==}}> Sticker Thema line <\n======================\n>[ ALL BERGARANSI FULL ]<\n>[ SLAMA MASIH SEWA ]<\nTRIMAKASIH \udbc1\udf06\udbc0\udd40peace\udbff\udfff\n=====================\nPayment : BRI,BCA,OVO,VIPUL\nMINAT CHAT IDLINE DBAWAH IN :\n==}}> https://line.me/ti/p/nYizlt2TN6",
+        "reply": false,
+        "status": false
+    },
+    "autoBlock": {
+        "message": "Sory noting Blocked @! \nInfo chat Idline : https://line.me/ti/p/nYizlt2TN6",
+        "status": false
+    },
+    "autoJoin": {
+        "message": "Thanks for invite me.. kakak @!\nInfo add lansung pm",
+        "reply": false,
+        "status": true
+    },
+    "autoLeave": {
+        "message": "Sory notings leave @!\nInfo add lansung pm",
+        "reply": false,
+        "status": false
+    },
+    "autoLike": true,
+    "autoRead": false,
+    "autoRespond": {
+        "message": "Hello @!",
+        "status": []
+    },
+    "autoRespondMention": {
+        "message": "Hello @!, apaan sih, \nSelfbot by USA Bots 2020",
+        "status": false
+    },
+    "changeCoverProfile": false,
+    "changeGroupPicture": [],
+    "changePictureProfile": false,
+    "changeProfileVideo": {
+        "picture": "/tmp/linepy-1581436924-7.bin",
+        "stage": 2,
+        "status": false,
+        "video": "/tmp/linepy-1581436942-1.bin"
+    },
+    "checkContact": [],
+    "checkPost": [
+        "c0f9bac8e15c8ade105cda3c9415d9ad0",
+        "c705ad132d1b9035156b5a8778ec96990"
+    ],
+    "checkSticker": [],
+    "commentPost": "Salam damay \udbc1\udf06\udbc0\udd18peace\udbff\udfff\nIf you respect the author please don't remove this copyright\n\u00a9 2019 USA BOTs \n\n",
+    "copyright": "If you respect the author please don't remove this copyright\n\u00a9 2019 USA BOTs",
+    "defaultReplyReader": "Hello @!, come here join to chat",
+    "detectFlood": true,
+    "spamCall": true,
+    "flexJson": {
+        "listOn": false,
+        "status": []
+    },
+    "greet": {
+        "status": [],
+        "join": {
+            "message": "Wecam @! namGroup: {name}"
+        },
+        "leave": {
+            "status": [],
+            "message": "Monggo cok @! namGroup: {name}"
+        }
+    },
+    "mention": "Sini lohh @! \nBrani kluar, \udbc1\udf06\udbc0\udd18peace\udbff\udfff",
+    "micflex": {
+        "status": false,
+        "target": {}
+    },
+    "mimic": {
+        "status": true,
+        "target": {}
+    },
+    "myProfile": {
+        "coverId": "c0000000000000000000000000000001",
+        "displayName": "denmasgeo",
+        "pictureStatus": "0hq6NOfYHZLhlzNjkkCHVRTk9zIHQEGChRC1E0fVFldCAODm0aSFk1KlVicChaBWhJGgQzeVRhJChe",
+        "statusMessage": "",
+        "videoProfile": null
+    },
+    "restartPoint": null,
+    "setKey": {
+        "key": "",
+        "status": true
+    },
+    "ticket": true,
+    "tmpFlex": true
+}
