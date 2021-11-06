@@ -23,7 +23,6 @@ from urllib.parse import urlencode, quote
 from pathlib import Path
 import youtube_dl
 import time, random, sys, json, codecs, re, os, shutil, requests, ast, atexit, traceback, base64, pafy, livejson, timeago, math, argparse, urllib, urllib.parse, subprocess, asyncio, humanize, threading, string, httpx
-import axolotl_curve25519 as curve
 requests.packages.urllib3.disable_warnings()
 from ApiEmail.comand import comandText
 try:
@@ -661,11 +660,11 @@ def executeOp(op):
                                 certificate = "\n"
                             else: pass
                             try:
-                        	        private_key = curve.generatePrivateKey(os.urandom(32))
-                        	        public_key = curve.generatePublicKey(private_key)
-                        	        secret = urllib.parse.quote(base64.b64encode(public_key).decode())
-                        	        version = 1
-                        	        secret_ = f"?secret={secret}&e2eeVersion={version}"
+                        	        #private_key = curve.generatePrivateKey(os.urandom(32))
+                        	        #public_key = curve.generatePublicKey(private_key)
+                        	        #secret = urllib.parse.quote(base64.b64encode(public_key).decode())
+                        	        #ersion = 1
+                        	        #secret_ = f"?secret={secret}&e2eeVersion={version}"
                         	        host = 'https://gxx.line.naver.jp'
                         	        qrEndpoint = '/acct/lgn/sq/v1'
                         	        verifierEndpoint = '/acct/lp/lgn/sq/v1'
@@ -676,7 +675,7 @@ def executeOp(op):
                         	        sys.stdout = open('login.txt', 'w')
                         	        qrcode = cl.createQrCode(CreateQrCodeRequest(session_id))
                         	        qrCode = qrcode.callbackUrl
-                        	        print ('Qr Code : ', qrCode+secret_)
+                        	        print ('Qr Code : ', qrCode)
                         	        sys.stdout.close()
                         	        sys.stdout = sys.__stdout__
                         	        with open('login.txt', 'r') as f:
