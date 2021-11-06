@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from .akad.ttypes import TalkException, ShouldSyncException
+from ApiEmail.ttypes import TalkException, ShouldSyncException
 from .client import LINE
 from threading import Thread
 from types import *
