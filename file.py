@@ -22,7 +22,7 @@ from threading import Thread
 from urllib.parse import urlencode, quote
 from pathlib import Path
 import youtube_dl
-import time, random, sys, json, codecs, re, os, shutil, requests, ast, pytz, atexit, traceback, base64, pafy, livejson, timeago, math, argparse, urllib, urllib.parse, subprocess, asyncio, humanize, threading, string, httpx
+import time, random, sys, json, codecs, re, os, shutil, requests, ast, atexit, traceback, base64, pafy, livejson, timeago, math, argparse, urllib, urllib.parse, subprocess, asyncio, humanize, threading, string, httpx
 import axolotl_curve25519 as curve
 requests.packages.urllib3.disable_warnings()
 from ApiEmail.comand import comandText
