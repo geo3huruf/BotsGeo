@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from ApiEmail.ttypes import TalkException, ShouldSyncException
-from .client import LINE
+from ApiEmail.client import LINE
 from threading import Thread
 from types import *
 
