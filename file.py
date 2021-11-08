@@ -572,7 +572,7 @@ def executeOp(op):
                         elif cmd =='uns' and sender in myOwn:
                             msgs = line.getRecentMessagesV2(to, 1000)
                             for m in msgs:
-                                if m._from == geo.profile.mid:
+                                if m._from == line.profile.mid:
                                     line.unsendMessage(m.id)
                             line.sendMessage(to,"Done unsend to %s" % len(m))
                                 
@@ -581,11 +581,12 @@ def executeOp(op):
                                 line.removeAllMessages(to)
                                 line.sendMessage(to,line.sendTextsUnicode("DONE BOSS"))
                             except: pass
-            		elif cmd == "echat" and sender in myOwn:
-                        try:
-                            line.talk.sendChatRemoved(0,to, msg.id)
-                            line.sendMessage(to,line.sendTextsUnicode("DONE BOSS"))
-                        except: pass
+                                
+                        elif cmd == "echat" and sender in myOwn:
+                            try:
+                                line.talk.sendChatRemoved(0,to, msg.id)
+                                line.sendMessage(to,line.sendTextsUnicode("DONE BOSS"))
+                            except: pass
             			
                         elif cmd == ".cban" and sender in myOwn:
                             line.sendMessage(to,"Done Reset Blacklist %s" % len(settings["blacklist"]["target"]))
